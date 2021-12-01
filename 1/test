@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form method="post">
+        <input name="firstn" placeholder="first and last name..."><br>
+        <input name="title" placeholder="book title..."><br>
+        <textarea name="kom" placeholder="your comment..."></textarea><br>
+        <input type="submit" name="klik" value="Publicate">
+    </form>
+</body>
+</html>
