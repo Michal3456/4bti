@@ -1,4 +1,4 @@
-# CKZiU room reservation system
+# web shop for nasa
 
 ## _contractor: Przemysław Wroński_
 ## _principal: Michał Czerwiński_
