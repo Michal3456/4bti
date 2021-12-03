@@ -1,4 +1,4 @@
-# Projekt
+# Visualization of Rubik's cube
 
 
 ## _contractor: Jakub Zieliński_
