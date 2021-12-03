@@ -78,6 +78,6 @@ https://github.com/Michal3456/4bti/blob/main/7/sprites/wyniki.PNG
 
 | name | type | size |
 | ------ | ------ |------ |
-| Nick Name | varchar | 25 |
+| name | varchar | 25 |
 | wynik | int | 4 |
 
