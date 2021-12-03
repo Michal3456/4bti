@@ -69,3 +69,7 @@ Dillinger uses a number of open source projects to work properly:
 ## Layout for form in HTML
 
 This project is a game so there is no link.
+
+## Layout for database
+
+https://github.com/Michal3456/4bti/blob/main/7/sprites/wyniki.PNG
