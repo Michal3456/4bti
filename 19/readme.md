@@ -56,10 +56,10 @@ Dillinger uses a number of open source projects to work properly:
 - [MySql/MariaDb]
 - [Apache]
 ## Layout for form in HTML
-[link to layout]<https://github.com/Michal3456/4bti/blob/main/19/sprites/form.png>
+[link to layout]<https://github.com/Michal3456/4bti/blob/main/15/sprites/form.jpg>
 
 ## Sketch a database without establishing a relationship
-[link to layout]<https://github.com/Michal3456/4bti/blob/main/19/sprites/sketch%20database.png>
+[link to layout]<https://github.com/Michal3456/4bti/blob/main/15/sprites/registration%20of%20packages.PNG>
 
 ## Wireframe the main form on the application subpage
-[link to layout]<https://github.com/Michal3456/4bti/blob/main/19/sprites/wirefram.png>
+[link to layout]<https://github.com/Michal3456/4bti/blob/main/15/sprites/wireframe.PNG>
