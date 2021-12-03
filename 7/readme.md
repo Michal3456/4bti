@@ -73,3 +73,11 @@ This project is a game so there is no link.
 ## Layout for database
 
 https://github.com/Michal3456/4bti/blob/main/7/sprites/wyniki.PNG
+
+## Fieldtypes in database
+
+| name | type | size |
+| ------ | ------ |------ |
+| Nick Name | varchar | 25 |
+| wynik | int | 4 |
+
