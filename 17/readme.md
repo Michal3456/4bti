@@ -62,4 +62,4 @@ Dillinger uses a number of open source projects to work properly:
 [link to layout]<https://github.com/Michal3456/4bti/blob/main/17/baza.drawio.png>
 
 ## Wireframe the main form on the application subpage
-[link to layout]<https://github.com/Michal3456/4bti/blob/main/17/wirefram.png>
+[link to layout]<https://github.com/Michal3456/4bti/blob/main/17/wireframe.png>
