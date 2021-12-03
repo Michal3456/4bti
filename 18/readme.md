@@ -1,4 +1,4 @@
-# Visualization of Rubik's cube
+# Visualization of cube in 4D
 
 
 ## _contractor: Jakub Zieliński_
