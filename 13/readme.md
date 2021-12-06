@@ -67,6 +67,10 @@ Dillinger uses a number of open source projects to work properly:
 
 [link to sketch a database][db]
 
+## Example of an empty wireframe of the main form on a subpage
+
+[Wireframe empty][wireframeExample]
+
 ## Wireframe the main form on the application subpage
 
 [Wireframe the main form][wireframeMain]
@@ -79,4 +83,6 @@ Dillinger uses a number of open source projects to work properly:
  
  [db]: <https://github.com/Michal3456/4bti/blob/main/13/baza.drawio.png>
  
- [wireframeMain]: <https://github.com/Michal3456/4bti/blob/main/13/wireframe.png>
+ [wireframeExample]: <https://github.com/Michal3456/4bti/blob/main/13/wireframe.png>
+ 
+ [wireframeMain]: <https://github.com/Michal3456/4bti/blob/main/13/wireframe2.png>
