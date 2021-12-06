@@ -71,3 +71,6 @@ Dillinger uses a number of open source projects to work properly:
 
 ## Database file 
 [link to database](https://github.com/Michal3456/4bti/blob/main/1/database/posty.sql)
+
+## Wireframe file
+[link to wireframe](https://github.com/Michal3456/4bti/blob/main/1/wireframe/wireframe.png)
