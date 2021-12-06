@@ -1,0 +1,10 @@
+#zam{
+    margin-top:100px;
+    float:center;
+    background-color: rgba(29, 1, 1, 0.822);
+    width:29%;
+    height:400px;
+    font-size: 120%;
+    color: white;
+    overflow: auto;
+}
