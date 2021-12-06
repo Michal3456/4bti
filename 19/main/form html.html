@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dokument</title>
 </head>
 <body>
-    <form method="POST">
-        <input name="login" placeholder=" podaj login pracownika"><br>
-        <input name="haslo" placeholder="Hasło pracownika" type="password"><br>
-        <input type="submit" value="Zacznij pracę" id="przycisk"><br><br>
-        </form>
+    <div class="container">
+        <nav>
+            <p id="strgl"><a href="index.html">Strona główna</a></p>
+            <ul id="navbar">
+                <li><a href="koniec.php">Kończenie czasu pracy</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Rozpocznij pracę</h1>
+        </header>
+        <main>
+            <div class="logowanie">
+                <form method="POST" action="logowanie2.php">
+                    <input name="login" placeholder="Numer pracownika" id="idd1"><br>
+                    <input name="haslo" placeholder="Hasło pracownika" type="password"><br>
+                    <input type="submit" value="Zacznij pracę" id="przycisk"><br><br>
+            </div>
+        </main>
+        <footer>
+            <p>Strona stworzona przez Mateusz Żbikowski's
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
