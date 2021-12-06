@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 25%;
+    background-color: teal;
+    padding: 5px;
+    text-align: center;
+}
+#m1{
+    float: left;
+    height: 300px;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+}
+#m2{
+    float: left;
+    height: 300px;
+    width: 60%;
+    background-color: whitesmoke;
+}
+footer{
+    clear: both;
+    background-color: teal;
+    height: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+table, tr{
+    border: solid  2px black;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 100%;
+}
+
+ td, th{
+    border: solid  2px black;
+    border-collapse: collapse;
+    padding: 2px;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+}
+
+h3::first-letter {
+    font-size: 120%;
+}
