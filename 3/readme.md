@@ -57,10 +57,17 @@ Dillinger uses a number of open source projects to work properly:
 - [Apache]
 
 Layout for form in HTML
-[link to layout] https://github.com/Michal3456/4bti/blob/main/3/spriters/form.jpg
+[link to layout] 
+https://github.com/Michal3456/4bti/blob/main/3/spriters/form.jpg
+
+
 
 Sketch a database without establishing a relationship
-[link to layout] https://github.com/Michal3456/4bti/blob/main/3/spriters/sketch%20database.png
+[link to layout] 
+https://github.com/Michal3456/4bti/blob/main/3/spriters/sketch%20database.png
+
+
 
 Wireframe the main form on the application subpage
-[link to layout] https://github.com/Michal3456/4bti/blob/main/3/spriters/wireframe.PNG
+[link to layout] 
+https://github.com/Michal3456/4bti/blob/main/3/spriters/wireframe.PNG
