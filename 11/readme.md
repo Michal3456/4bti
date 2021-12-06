@@ -1,4 +1,4 @@
-# Working time registration system
+# Photo booth
 
 
 ## _contractor: Jakub Szarafiński_
