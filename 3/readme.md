@@ -64,7 +64,7 @@ https://github.com/Michal3456/4bti/blob/main/3/spriters/form.jpg
 
 Sketch a database without establishing a relationship
 [link to layout] 
-https://github.com/Michal3456/4bti/blob/main/3/spriters/sketch%20database.png
+https://github.com/Michal3456/4bti/blob/main/3/spriters/sketch.png
 
 
 
