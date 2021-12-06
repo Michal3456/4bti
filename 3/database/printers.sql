@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 06 Gru 2021, 22:06
+-- Czas generowania: 06 Gru 2021, 22:09
 -- Wersja serwera: 10.4.22-MariaDB
 -- Wersja PHP: 7.3.33
 
@@ -31,7 +31,8 @@ CREATE TABLE `printers` (
   `id` int(255) NOT NULL,
   `size` int(255) NOT NULL,
   `product` varchar(255) COLLATE utf8_polish_ci NOT NULL,
-  `color` varchar(255) COLLATE utf8_polish_ci NOT NULL
+  `color` varchar(255) COLLATE utf8_polish_ci NOT NULL,
+  `image` varchar(255) COLLATE utf8_polish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
 --
