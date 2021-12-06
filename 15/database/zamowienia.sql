@@ -27,11 +27,11 @@ SET time_zone = "+00:00";
 -- Struktura tabeli dla tabeli `zamowienia`
 --
 
-CREATE TABLE `zamowienia` (
-  `id_zamowienia` int(11) NOT NULL,
-  `nr_paczki` int(11) NOT NULL,
-  `gdzie` text COLLATE utf8mb4_polish_ci NOT NULL,
-  `skąd` text COLLATE utf8mb4_polish_ci NOT NULL,
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `number_of_registration` int(11) NOT NULL,
+  `where` text COLLATE utf8mb4_polish_ci NOT NULL,
+  `from` text COLLATE utf8mb4_polish_ci NOT NULL,
   `status` text COLLATE utf8mb4_polish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_polish_ci;
 
@@ -39,7 +39,7 @@ CREATE TABLE `zamowienia` (
 -- Zrzut danych tabeli `zamowienia`
 --
 
-INSERT INTO `zamowienia` (`id_zamowienia`, `nr_paczki`, `gdzie`, `skąd`, `status`) VALUES
+INSERT INTO `orders` (`id`, `number_of_registration`, `where`, `from`, `status`) VALUES
 (6, 1234567891, 'Brodnica', 'Grążawy', 'niedostarczono');
 
 --
@@ -49,8 +49,8 @@ INSERT INTO `zamowienia` (`id_zamowienia`, `nr_paczki`, `gdzie`, `skąd`, `statu
 --
 -- Indeksy dla tabeli `zamowienia`
 --
-ALTER TABLE `zamowienia`
-  ADD PRIMARY KEY (`id_zamowienia`);
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -59,8 +59,8 @@ ALTER TABLE `zamowienia`
 --
 -- AUTO_INCREMENT dla tabeli `zamowienia`
 --
-ALTER TABLE `zamowienia`
-  MODIFY `id_zamowienia` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+ALTER TABLE `orders`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
