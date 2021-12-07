@@ -97,6 +97,7 @@
                 <option value="niekolorowe">CZARNO-BIAŁE</option>
             </select>
         </section>
+        </form>
     </main>
     <footer id="stopka">Strona stworzona przez: Macieja Grzywna</footer>
 </body>
