@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style>
+        section 
+        {
+            width:500px;
+            height:350px;
+            border:1px solid black ;
+            left: 50%;
+            margin-right: -50%;
+            margin: 0 ;
+            position:absolute;
+            top:50%;
+            transform: translate(-50%, -50%)
+        }
+        table 
+        {
+            left: 50%;
+            margin-right: -50%;
+           
+            margin: 0 ;
+            position:absolute;
+            top:50%;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+    <body>
+        <section >
+            <form method="POST">
+                <table>
+                    <tbody>
+                            <tr >
+                                <td>
+                                    <input placeholder="Podaj liczbę:" min="1" name="liczba" type="number" style="width:200px;font-size:20px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" name="wyslij" value="Wyslij" style="width:208px; margin-top:30px; font-size:20px;color:white;background-color:blue;border:none;height:50px">
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+    </body>
+</html>
