@@ -57,3 +57,6 @@ Dillinger uses a number of open source projects to work properly:
 - 
 - ## Layout for form in HTML
 [link to layout]<https://github.com/Michal3456/4bti/blob/main/18/sprites/form.jpg>
+- ## Wireframe the main form on the application subpage [link to layout]
+https://github.com/Michal3456/4bti/blob/main/18/sprites/wireframe.PNG
+
