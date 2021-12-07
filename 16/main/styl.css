@@ -1,0 +1,22 @@
+#container{
+    width: 1200px;
+    height: 500px;
+    background-color: blueviolet;
+}
+#lewy{
+    float: left;
+}
+#kupowanie{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: white;
+
+}
+footer{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 390px;
+    color: white;
+    font-size: 200%;
+}
