@@ -38,17 +38,6 @@ CREATE TABLE `zamowienia` (
 --
 -- Zrzut danych tabeli `zamowienia`
 --
-
-INSERT INTO `zamowienia` (`id_zamowienia`, `nr_paczki`, `gdzie`, `skąd`, `status`) VALUES
-(6, 1234567891, 'Brodnica', 'Grążawy', 'niedostarczono');
-
---
--- Indeksy dla zrzutów tabel
---
-
---
--- Indeksy dla tabeli `zamowienia`
---
 ALTER TABLE `zamowienia`
   ADD PRIMARY KEY (`id_zamowienia`);
 
