@@ -6,12 +6,8 @@
 
 | dossier version | date | description |
 | ------ | ------ | ------ |
-| 1.0 | 17.11.2021 | none |
-| 1.1 | 17.11.2021 | adding ERD |
-| 1.2 | 25.11.2021 | adding organizational structure |
-| 1.3 | 26.11.2021 | adding layout form in HTML |
-| 1.4 | 29.11.2021 | database with only tables - sketch a database without establishing a relationship |
-| 1.5 | 30.11.2021 | add wireframes |
+| 1.0 | 6.12.2021 | Project started |
+| 1.1 | 8.12.2021 | Added template |
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
