@@ -73,9 +73,6 @@ A subsection that presents a detailed description of the individual functionalit
 
 [link to sketch a database][db]
 
-## Example of an empty wireframe of the main form on a subpage
-
-[Wireframe empty][wireframeExample]
 
 ## Wireframe the main form on the application subpage
 
