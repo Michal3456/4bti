@@ -7,7 +7,7 @@
 | dossier version | date | description |
 | ------ | ------ | ------ |
 | 1.0 | 6.12.2021 | Project started |
-| 1.1 | 8.12.2021 | Added template |
+| 1.1 | 8.12.2021 | Added ERD diagram, added layout, added template, added database, added ready database, added wireframe, added CSS styles and form|
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -38,11 +38,8 @@ The above functionalities are tested and work according to their roles.
 
 [link to diagram ERD in jpg][erd]
 
-## Organizational structure diagram
 
-[link to diagram OSD in jpg][osd]
-
-## Cpecific functionalities
+## Specific functionalities
 
 A subsection that presents a detailed description of the individual functionalities on which the main functionalities are based.
 
@@ -54,6 +51,8 @@ A subsection that presents a detailed description of the individual functionalit
 
 ## Technologies, programming languages and others
 
+Dillinger uses a number of open source projects to work properly:
+
 - [PHP]
 - [JS]
 - [CSS/HTML]
@@ -61,25 +60,20 @@ A subsection that presents a detailed description of the individual functionalit
 - [MySql/MariaDb]
 - [Apache]
 
-## Layout for form in HTML
+ [erd]: <https://github.com/Michal3456/4bti/blob/main/8/sprites/database.png>
+ 
+ ## Layout for form in HTML
 
 [link to layout][form]
 
-## Sketch a database without establishing a relationship
+ ## Sketch a database without establishing a relationship
 
 [link to sketch a database][db]
 
+ ## Wireframe of the main form on a subpage
 
-## Wireframe the main form on the application subpage
+[link to wireframe][wireframe]
 
-[Wireframe the main form][wireframeMain]
-
- [erd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.jpg>
- 
- [osd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.drawio(1).png>
- 
- [form]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.drawio(2).png>
- 
- [db]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.drawio(6).png>
- 
- [wireframeMain]: <https://github.com/Michal3456/example_project/blob/main/sprites/a_wireframe_subpage_with_the_main_application_form.jpg>
+[form]: <https://github.com/Michal3456/4bti/blob/main/8/sprites/template.png>
+[db]: <https://github.com/Michal3456/4bti/blob/main/8/sprites/database.png>
+[wireframe]: <https://github.com/Michal3456/4bti/blob/main/8/sprites/wireframe.png>
