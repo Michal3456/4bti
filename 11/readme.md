@@ -59,6 +59,7 @@ Dillinger uses a number of open source projects to work properly:
 
 
 ## Sketch a database without establishing a relationship
+  [link to layout] https://github.com/Michal3456/4bti/blob/main/11/sprites/fotobudka.jpg
 
 
 ## Wireframe the main form on the application subpage
