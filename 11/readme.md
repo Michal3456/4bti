@@ -64,3 +64,4 @@ Dillinger uses a number of open source projects to work properly:
 
 
 ## Wireframe the main form on the application subpage
+  [link to layout] https://github.com/Michal3456/4bti/blob/main/11/sprites/a_wireframe_subpage.png
