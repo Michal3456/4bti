@@ -70,7 +70,7 @@ A subsection that presents a detailed description of the individual functionalit
 
 ## Layout for form in HTML
 
-[link to layout] [form]
+[link to layout][form]
 
 ## Sketch a database without establishing a relationship
 
