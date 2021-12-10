@@ -88,10 +88,10 @@ A subsection that presents a detailed description of the individual functionalit
  
  [osd]: <https://github.com/Michal3456/1tp/blob/main/4/sprites/Diagram.png>
  
- [form]: <https://github.com/Michal3456/1tp/blob/main/4/sprites/FORM.png>
+ [form]: <https://github.com/Michal3456/4bti/blob/main/4/sprites/form.png>
  
- [db]: <https://github.com/Michal3456/1tp/blob/main/4/sprites/datebase.png>
+ [db]: <https://github.com/Michal3456/4bti/blob/main/4/sprites/database.png>
  
- [wireframeMain]: <https://github.com/Michal3456/1tp/blob/main/4/sprites/wireframe1.png>
+ [wireframeMain]: <https://github.com/Michal3456/4bti/blob/main/4/sprites/wireframe.PNG>
  
  [wireframeExample]: <https://github.com/Michal3456/example_project/blob/main/sprites/wireframe%20subpage_simple.jpg>
