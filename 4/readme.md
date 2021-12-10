@@ -2,18 +2,6 @@
 
 ## _contractor: Patryk Józefowicz_
 ## _principal: Michał Czerwiński_
-
-
-| dossier version | date | description |
-| ------ | ------ | ------ |
-| 1.0 | 01.12.2021 | none |
-| 1.1 | 06.12.2021 | adding ERD |
-| 1.2 | 06.12.2021 | adding organizational structure |
-| 1.3 | 06.12.2021 | adding layout form in HTML |
-| 1.4 | 07.12.2021 | database with only tables - sketch a database without establishing a relationship |
-| 1.5 | 08.12.2021 | add wireframes |
-
-
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## Abstract 
