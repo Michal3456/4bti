@@ -76,10 +76,6 @@ A subsection that presents a detailed description of the individual functionalit
 
 [link to sketch a database][db]
 
-## Example of an empty wireframe of the main form on a subpage
-
-[Wireframe empty][wireframeExample]
-
 ## Wireframe the main form on the application subpage
 
 [Wireframe the main form][wireframeMain]
@@ -92,4 +88,4 @@ A subsection that presents a detailed description of the individual functionalit
  
  [db]: <https://github.com/Michal3456/4bti/blob/main/4/sprites/database.png>
  
- [wireframeMain]: <https://github.com/Michal3456/example_project/blob/main/sprites/wireframe%20subpage_simple.jpg>
+ [wireframeMain]: <https://github.com/Michal3456/4bti/blob/main/4/sprites/wireframe.PNG>
