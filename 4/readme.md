@@ -8,12 +8,6 @@
 The project concerns a system for finding people's positions in the world: 
 
 
-## Data structure
-
-| data | type |
-| ------ | ------ |
-| INPUT | data form |
-| OUTPUT | room reservation message and database entry |
 
 ## Main functionalities
 
