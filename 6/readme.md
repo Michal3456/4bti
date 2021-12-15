@@ -10,6 +10,8 @@
 | 1.1 | 17.11.2021 | adding ERD |
 | 1.2 | 25.11.2021 | adding organizational structure |
 | 1.3 | 30.11.2021 | adding Layout |
+| 1.4 | 15.12.2021 | database with only tables - sketch a database without establishing a relationship |
+| 1.5 | 15.12.2021 | add wireframes |
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -63,6 +65,10 @@ A subsection that presents a detailed description of the individual functionalit
 
 [link to layout][form]
 
+[link to wireframes][wireframes]
+
+[link to database sketch][sketch]
+
 Dillinger uses a number of open source projects to work properly:
 
 - [PHP]
@@ -76,4 +82,8 @@ Dillinger uses a number of open source projects to work properly:
  
  [osd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.drawio(1).png>
  
-  [form]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/Untitled%20Diagram.drawio.png>
+ [form]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/Untitled%20Diagram.drawio.png>
+
+ [wireframes]: <>
+ 
+ [sketch]: <>
