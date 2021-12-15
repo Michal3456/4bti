@@ -1,13 +1,40 @@
-<form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl.css"> 
+    <title>Reservation System</title>
+</head>
+<body>
     
-    <input placeholder="first name" id="first_name" type="text">
-                    
-    <input placeholder="last name"  id="last_name" type="text">
+    <form>
+    
+        <input placeholder="first name" id="first_name" type="text">
+                        
+        <input placeholder="last name"  id="last_name" type="text">
+        
+        <br>
 
-    <input placeholder="classnumber" name="class" type="number">
-                    
-    <input id="date" name="date" type="date">
-                   
-    <button type="submit"> upload </button>
-                  
-</form>
+        <select name="class">
+        
+        <option value="room_18" mame="room_18">Room 18</option>
+        <option value="room_23" mame="room_23">Room 23</option>
+        <option value="room_25" mame="room_25">Room 25</option>
+        <option value="room_40" mame="room_40">Room 40</option>
+        <option value="room_40A" mame="room_40A">Room 40A</option>
+        <option value="room_46" mame="room_46">Room 46</option>
+        
+        </select>
+
+        <br>
+                        
+        <input id="date" name="date" type="date">
+                       
+        <button type="submit"> book </button>
+                      
+    </form>
+
+
+
+</body>
+</html>
