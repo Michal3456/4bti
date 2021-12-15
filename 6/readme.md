@@ -65,9 +65,13 @@ A subsection that presents a detailed description of the individual functionalit
 
 [link to layout][form]
 
-[link to wireframes][wireframes]
+##  Sketch a database
 
 [link to database sketch][sketch]
+
+## Wireframes
+
+[link to wireframes][wireframes]
 
 Dillinger uses a number of open source projects to work properly:
 
@@ -84,6 +88,6 @@ Dillinger uses a number of open source projects to work properly:
  
  [form]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/Untitled%20Diagram.drawio.png>
 
- [wireframes]: <>
+ [wireframes]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/a_wireframe_subpage_with_the_main_application_form.jpg>
  
- [sketch]: <>
+ [sketch]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/Untitled%20Diagram.drawio(!).png>
