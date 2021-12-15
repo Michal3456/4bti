@@ -90,4 +90,4 @@ Dillinger uses a number of open source projects to work properly:
 
  [wireframes]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/a_wireframe_subpage_with_the_main_application_form.jpg>
  
- [sketch]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/Untitled%20Diagram.drawio(!).png>
+ [sketch]: <https://github.com/Michal3456/4bti/blob/main/6/sprites/sketch.png>
