@@ -3,7 +3,20 @@ function App() {
 
   const submitData = (e) =>{
     e.preventDefault();
-    //Data fetching from PHP api using a GET method will take place here 
+    
+    const device = new URLSearchParams(document.querySelector('#device').value);
+
+    console.log(device);
+
+    fetch('http://localhost:80/react/api/main.php',{
+      method: 'POST',
+      body: device
+    })
+    .then(response => response.text())
+    .then(response => {
+      console.log(response);
+      document.querySelector('.result-cnt').innerHTML = response;
+    })
   }
 
   return (
@@ -17,14 +30,13 @@ function App() {
           <a href="#">Help</a>
         </div>
       </nav>
-      <form id='dataForm' onSubmit={submitData}>
-        <input type='text' placeholder='Input your device name here.'/>
+      <form id='dataForm' onSubmit={submitData} >
+        <input type='text' placeholder='Input your device name here.' id='device'/>
         <button type='submit'>Submit</button>
       </form>
       <main>
         <h2>Device Information:</h2>
         <div className="result-cnt">
-          <h1>Data will be displayed here</h1>
         </div>
         <div className="steps-cnt">
           <div className="circle active">
