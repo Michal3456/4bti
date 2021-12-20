@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<form name="bmiForm">
+			Weight(kg): <input type="text" name="weight" size="10"><br />
+			Height(cm): <input type="text" name="height" size="10"><br />
+			<input type="button" value="Get Diet" onClick="calculateBmi()"><br />
+			BMI: <input type="text" name="bmi" size="10"><br />
+			results: <input type="text" name="meaning" size="140"><br />
+			<input type="reset" value="Reset" />
+            Most important is that you shouldn't suggest by any ready diet or training beacuse every human is different and reacts differently. You should get diet from someone who knows how to personalize diet, because there is not a number which can state what your body need to work better.
+		</form>
+	</body>
+    <script type="text/javascript">
+        function calculateBmi() {
+            var weight = document.bmiForm.weight.value
+            var height = document.bmiForm.height.value
+            if(weight > 0 && height > 0){	
+                var finalBmi = weight/(height/100*height/100)
+                document.bmiForm.bmi.value = finalBmi
+                if(finalBmi < 18.5){
+                    document.bmiForm.meaning.value = "you should eat al least 2500kcal per day and focus on gaining muscles with eating big amounts of carbs and proteins (no need to be aware of fats)"
+                }
+                if(finalBmi > 18.5 && finalBmi < 25){
+                    document.bmiForm.meaning.value = "your diet is good so far, but if u want u can try to eat more protein instead of fats and eat a little of carbs to help your body in burning fats and gaining muscles"
+                }
+                if(finalBmi > 25){
+                    document.bmiForm.meaning.value = "you shold eat no more than 2000-2500 and focus on not eating fats, try to add some protein to your diet and a little carbs to help your body with burning fats"
+                }
+            }
+            else{
+                alert("fill all gaps corectly")
+            }
+        }
+    </script>
+</html>
