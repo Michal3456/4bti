@@ -13,7 +13,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## Abstract 
-The project concerns a system that allows you to generate your own training plan and diet.
+The project concerns a system that allows you to generate your own training plan or diet.
 
 ## Data structure
 
@@ -24,9 +24,7 @@ The project concerns a system that allows you to generate your own training plan
 
 ## Main functionalities
 
-1. relational database based on SQL language
-2. frot-end created with usage of JavaScript and CSS technologies
-3. back-end handled by PHP
+1. frot-end created with usage of JavaScript and CSS technologies
 
 The above functionalities are tested and work according to their roles.
 
@@ -38,19 +36,11 @@ The above functionalities are tested and work according to their roles.
 
 A subsection that presents a detailed description of the individual functionalities on which the main functionalities are based.
 
-### Relational database based on SQL language
-
 ### Frot-end created with usage of JavaScript and CSS technologies
-
-### Back-end handled by PHP
 
 ## Technologies, programming languages and others
 
 Dillinger uses a number of open source projects to work properly:
 
-- [PHP]
 - [JS]
 - [CSS/HTML]
-- [SQL]
-- [MySql/MariaDb]
-- [Apache]
