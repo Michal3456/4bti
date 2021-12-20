@@ -6,20 +6,20 @@
 </head>
 <body>
     
-   <form>
+   <form method="$_POST">
     <table>
         <tbody>
                <tr>
         		   <td>
-                       <input placeholder="first name" id="first_name" type="text">
+                       <input placeholder="first name" name="first_name" type="text">
                    </td>
                    <td>
-                       <input placeholder="last name"  id="last_name" type="text">
+                       <input placeholder="last name"  name="last_name" type="text">
                    </td>
                </tr>
                <tr>
                    <td colspan="2">
-                   	   <select id="room">
+                   	   <select name="room">
                        
                             <option value="" disabled selected> select rooms in CKZiU </option>
                             <option value="sala18"> sala 18 </option>
@@ -34,17 +34,22 @@
                </tr>
                <tr>
                    <td colspan="2">
-                       <input id="date_booking" type="date">
+                       <input name="date_booking" type="date">
                    </td>
                </tr>
                <tr>
                    <td colspan="2">
-                       <input onload="" value="Book" type="button">
+                       <input value="Book" type="submit" name="wyślij">
                    </td> 
                </tr>
         </tbody>
     </table>
 </form>
+
+
+<?php
+
+?>
 
 
 
