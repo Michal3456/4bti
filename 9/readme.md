@@ -8,6 +8,7 @@
 | dossier version | date |
 | ------ | ------ |
 | 1.0 | 19.11.2021 |
+| 2.0 | 20.12.2021 |
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
