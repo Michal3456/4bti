@@ -7,32 +7,45 @@
 </head>
 <body>
     
-    <form>
-    
-        <input placeholder="first name" id="first_name" type="text">
-                        
-        <input placeholder="last name"  id="last_name" type="text">
-        
-        <br>
-
-        <select name="class">
-        
-        <option value="room_18" mame="room_18">Room 18</option>
-        <option value="room_23" mame="room_23">Room 23</option>
-        <option value="room_25" mame="room_25">Room 25</option>
-        <option value="room_40" mame="room_40">Room 40</option>
-        <option value="room_40A" mame="room_40A">Room 40A</option>
-        <option value="room_46" mame="room_46">Room 46</option>
-        
-        </select>
-
-        <br>
-                        
-        <input id="date" name="date" type="date">
+   <form>
+    <table>
+        <tbody>
+               <tr>
+        		   <td>
+                       <input placeholder="first name" id="first_name" type="text">
+                   </td>
+                   <td>
+                       <input placeholder="last name"  id="last_name" type="text">
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="2">
+                   	   <select id="room">
                        
-        <button type="submit"> book </button>
-                      
-    </form>
+                            <option value="" disabled selected> select rooms in CKZiU </option>
+                            <option value="sala18"> sala 18 </option>
+         					<option value="room_23"> Sala 23 </option>
+       			 			<option value="room_25"> Sala 25 </option>
+        					<option value="room_40"> Sala 40 </option>
+        					<option value="room_40A">Sala 40A </option>
+        					<option value="room_46">sala 46 </option>
+        
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="2">
+                       <input id="date_booking" type="date">
+                   </td>
+               </tr>
+               <tr>
+                   <td colspan="2">
+                       <input onload="" value="Book" type="button">
+                   </td> 
+               </tr>
+        </tbody>
+    </table>
+</form>
 
 
 
