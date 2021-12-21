@@ -1,4 +1,4 @@
-# CKZiU room reservation system
+# CKZiU game
 
 ## _contractor: Jakub Obarowski_
 ## _principal: Michał Czerwiński_
