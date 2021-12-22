@@ -4,17 +4,19 @@ function App() {
   const submitData = (e) =>{
     e.preventDefault();
     
-    const device = new URLSearchParams(document.querySelector('#device').value);
+    // const device = new URLSearchParams(document.querySelector('#device').value);
 
-    console.log(device);
+    const device = {name: document.querySelector('#device').value};
 
     fetch('http://localhost:80/react/api/main.php',{
-      method: 'POST',
-      body: device
+      method: 'POST', 
+      headers: {
+        'Content-Type': 'aplication/json',
+      },
+      body: JSON.stringify(device)
     })
     .then(response => response.text())
     .then(response => {
-      console.log(response);
       document.querySelector('.result-cnt').innerHTML = response;
     })
   }
@@ -31,7 +33,7 @@ function App() {
         </div>
       </nav>
       <form id='dataForm' onSubmit={submitData} >
-        <input type='text' placeholder='Input your device name here.' id='device'/>
+        <input type='text' placeholder='Input your device name here.' id='device' name="device"/>
         <button type='submit'>Submit</button>
       </form>
       <main>
