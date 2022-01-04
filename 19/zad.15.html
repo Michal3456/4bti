@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tlo strony</title>
+</head>
+<body>
+    <input id="r1" placeholder="Podaj R">
+    <input id="g1" placeholder="Podaj G">
+    <input id="b1" placeholder="Podaj B">
+    <input id="a1" placeholder="Podaj kanał alfa">
+    <button onclick="funkcja()">Zmień kolor tła</button>
+    <script>
+        function funkcja()
+        {
+            let r=r1.value;
+            let g=g1.value;
+            let b=b1.value;
+            let a=a1.value;
+            let pomr=parseInt(r);
+            let pomg=parseInt(g);
+            let pomb=parseInt(b);
+            let poma=parseFloat(a);
+            let kolor="rgba("+r+", "+g+", "+b+", "+a+")";
+            if(!isNaN(r)&&!isNaN(g)&&!isNaN(b)&&!isNaN(a)&&pomr>0&&pomr<=255&&pomg>0&&pomg<=255&&pomb>0&&pomb<=255&&poma>0&&poma<=1)
+        document.body.style.backgroundColor=kolor;
+        else
+        alert("Nieprawidłowe parametry!");
+
+        }
+    </script>
+</body>
+</html>
