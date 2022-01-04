@@ -3,7 +3,8 @@ function App() {
 
   const submitData = (e) =>{
     e.preventDefault();
-    
+    document.querySelector('.result-cnt').innerHTML = '';
+    let counter = 0;
     // const device = new URLSearchParams(document.querySelector('#device').value);
 
     const device = {name: document.querySelector('#device').value};
@@ -15,10 +16,18 @@ function App() {
       },
       body: JSON.stringify(device)
     })
-    .then(response => response.text())
+    .then(response => response.json())
     .then(response => {
-      document.querySelector('.result-cnt').innerHTML = response;
-    })
+      response.forEach(device => {
+        let deviceInfo = document.createElement('h4');
+        deviceInfo.innerHTML = `Device ID: ${device.id}, Device Name: ${device.name}, Location: ${device.location}, Device Owner: ${device.lname + device.fname}`;
+        document.querySelector('.result-cnt').appendChild(deviceInfo);
+        counter++;
+      });
+      let resultCounter = document.createElement('h2');
+      resultCounter.innerHTML = `Results found: ${counter}`;
+      document.querySelector('.result-cnt').appendChild(resultCounter);
+    });
   }
 
   return (
