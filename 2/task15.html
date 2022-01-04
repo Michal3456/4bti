@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 15</title>
+</head>
+<body>
+    R<input type="number" id="r" placeholder="0-255">
+    G<input type="number" id="g" placeholder="0-255">
+    B<input type="number" id="b" placeholder="0-255">
+    A<input type="number" id="a" placeholder="0-1">
+    <button onclick="skrypt()">OK</button>
+
+    <script>
+        const skrypt = () =>{
+            const red = document.querySelector('#r').value;
+            const green = document.querySelector('#g').value;
+            const blue = document.querySelector('#b').value;
+            const alfa = document.querySelector('#a').value;
+
+            if(isNaN(red)||isNaN(green)||isNaN(blue)||isNaN(alfa)){
+                alert("Wartości muszą być liczbą");
+            }else if(red > 255 || green < 0|| green > 255 || blue < 0 || blue > 255 || alfa < 0 || alfa > 1){
+                alert("Liczby muszą mieścić się w danym zakresie.");
+            }else{
+                document.body.style.backgroundColor = `rgba(${red},${green},${blue},${alfa})`;
+            }
+        }
+    </script>
+</body>
+</html>
