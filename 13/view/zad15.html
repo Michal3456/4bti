@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="r1" placeholder="R" min='0' max='255'> <br>
+    <input type="number" id="g1" placeholder="G" min='0' max='255'> <br>
+    <input type="number" id="b1" placeholder="B" min='0' max='255'> <br>
+    <input type="number" id="a1" placeholder="A" min='0' max='1'> <br>
+    <button onclick="fun()">Zmień kolor</button>
+    <script>
+        function fun() {
+            let r=parseInt(r1.value);
+            let g=parseInt(g1.value);
+            let b=parseInt(b1.value);
+            let a=parseFloat(a1.value);
+            let kolor="rgba("+r+", "+g+", "+b+", "+a+")";
+            if(!isNaN(r1.value)&&!isNaN(g1.value)&&!isNaN(b1.value)&&!isNaN(a1.value)&&r>=0&&r<=255&&g>=0&&g<=255&&b>=0&&b<=255&&a>0&&a<=1){
+                document.body.style.backgroundColor=kolor;
+            }
+            else {
+                alert("Złe dane");
+            }
+        }
+    </script>
+</body>
+</html>
