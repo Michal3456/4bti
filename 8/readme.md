@@ -7,7 +7,8 @@
 | dossier version | date | description |
 | ------ | ------ | ------ |
 | 1.0 | 6.12.2021 | Project started |
-| 1.1 | 8.12.2021 | Added ERD diagram, added layout, added template, added database, added ready database, added wireframe, added CSS styles and form|
+| 1.1 | 8.12.2021 | Added ERD diagram, added layout, added template, added database, added ready database, added wireframe, added CSS styles and form |
+| 1.2 | 4.1.2022 | Added RGBA JS script |
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
