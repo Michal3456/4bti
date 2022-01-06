@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad 15</title>
+    <script>
+        function tlo()
+        {
+            let r=red.value;
+            let g=green.value;
+            let b=blue.value;
+            let a=alfa.value;
+            let wynik="rgba("+r+", "+g+", "+b+", "+a+")";
+
+            if(!isNaN(r) && !isNaN(g) && !isNaN(b) && !isNaN(a) && r>0 && r<=255 && g>0 && g<=255 && b>0 && b<=255 && a>0 && (a==1 || a==0))
+                document.body.style.backgroundColor=wynik;
+            else
+                alert("Nieprawidłowe parametry!");
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="red"> R <br>
+    <input type="number" id="green"> G <br>
+    <input type="number" id="blue"> B <br>
+    <input type="number" id="alfa"> Alfa <br><br>
+    <button onclick="tlo()">OK</button>
+</body>
+</html>
