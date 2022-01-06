@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad 16</title>
+    <style>
+        #wynik
+        {
+            text-align: center;
+        }
+        #usluga
+        {
+            height: 70px;
+            width: 200px;
+            margin-left: 30px;
+        }
+        #imie
+        {
+            margin-left: 46px;
+        }
+        #nazwisko
+        {
+            margin-left: 12px;
+        }
+        #email
+        {
+            margin-left: 32px;
+        }
+    </style>
+    <script>
+        function resetuj()
+        {
+            imie.value = "";
+            nazwisko.value = "";
+            email.value = "";
+            usluga.value = "";
+            regulamin.checked = false;
+        }
+        
+        function przeslij()
+        {
+            if (regulamin.checked == false)
+            {
+                wynik.innerHTML = "Musisz zapoznać się z regulaminem";
+                wynik.style.color = "red";
+            }
+            else
+            {
+                im = imie.value;
+                naz = nazwisko.value;
+                mail = email.value;
+                usl = usluga.value;
+                im = im.toUpperCase();
+                naz = naz.toUpperCase();
+                wynik.innerHTML = im + " " + naz + "<br> Treść Twojej sprawy: " + usl + "<br> Na podany e-mail zostanie wysłana oferta."; 
+                wynik.style.color = "black";
+            }
+        }
+    </script>
+</head>
+<body>
+    Imię: <input type="text" id="imie"> <br>
+    Nazwisko: <input type="text" id="nazwisko"> <br>
+    E-mail: <input type="text" id="email"> <br>
+    Usługa: <input type="textarea" id="usluga"> <br>
+    <input type="checkbox" id="regulamin"> Zapoznałem/am się z regulaminem <br>
+    <button onclick="resetuj()">Resetuj</button>
+    <button onclick="przeslij()">Prześlij</button>
+    <br><br><br>
+    <p id="wynik"></p>
+</body>
+</html>
